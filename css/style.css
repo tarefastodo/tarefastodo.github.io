@@ -31,7 +31,6 @@ nav {
 }
 
 nav > a {
-    font-size: 1.2em;
     text-decoration: none;
     color: white;
     transition: 0.3s;
@@ -243,6 +242,9 @@ button.remover-tarefa:hover {
 
 /*Celular*/
 @media(min-width:320px) and (max-width:500px) {
+    nav > a {
+        font-size: 0.8em;
+    }
     #titulo {
         font-size: 1.9em;
     }
@@ -259,6 +261,9 @@ button.remover-tarefa:hover {
 
 /*Tablet*/
 @media(min-width:501px) and (max-width:767px) {
+    nav > a {
+        font-size: 1em;
+    }
     #titulo {
         font-size: 2.1em;
     }
@@ -275,6 +280,9 @@ button.remover-tarefa:hover {
 
 /*Desktop menor*/
 @media(min-width:767px) and (max-width:1440px) {
+    nav > a {
+        font-size: 1.3em;
+    }
     #titulo {
         font-size: 2.4em;
     }
@@ -292,6 +300,9 @@ button.remover-tarefa:hover {
 
 /*Desktop maior*/
 @media(min-width:1441px){
+    nav > a {
+        font-size: 1.5em;
+    }
     #titulo {
         font-size: 2.6em;
     }
