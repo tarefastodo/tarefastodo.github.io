@@ -130,6 +130,7 @@ article#nova_tarefa > #botao:active {
 
 input, select {
     height: 40px;
+    margin: auto;
 }
 
 input::placeholder {
