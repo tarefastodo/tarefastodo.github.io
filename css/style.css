@@ -128,6 +128,7 @@ input, select, textarea {
     height: 40px;
     width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 input::placeholder {
@@ -254,9 +255,6 @@ button.remover-tarefa:hover {
     #lista_tarefas {
         width: 85%;
     }
-    label {
-        text-align: center;
-    }
 }
 
 /*Tablet*/
@@ -272,9 +270,6 @@ button.remover-tarefa:hover {
     }
     #lista_tarefas {
         width: 70%;
-    }
-    label {
-        text-align: center;
     }
 }
 
@@ -292,9 +287,6 @@ button.remover-tarefa:hover {
     #lista_tarefas {
         width: 60%;
     }
-    label {
-        text-align: start;
-    }
 }
 
 
@@ -311,8 +303,5 @@ button.remover-tarefa:hover {
     }
     #lista_tarefas {
         width: 45%;
-    }
-    label {
-        text-align: start;
     }
 }
