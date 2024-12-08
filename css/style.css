@@ -276,6 +276,13 @@ footer > p > a {
     #lista_tarefas {
         width: 85%;
     }
+    footer > p {
+        font-size: 0.8em;
+    }
+    
+    footer > p > a {
+        font-size: 0.8em;
+    }
 }
 
 /*Tablet*/
@@ -294,6 +301,13 @@ footer > p > a {
     }
     #lista_tarefas {
         width: 70%;
+    }
+    footer > p {
+        font-size: 1em;
+    }
+    
+    footer > p > a {
+        font-size: 1em;
     }
 }
 
@@ -314,6 +328,13 @@ footer > p > a {
     #lista_tarefas {
         width: 60%;
     }
+    footer > p {
+        font-size: 1.2em;
+    }
+    
+    footer > p > a {
+        font-size: 1.2em;
+    }
 }
 
 
@@ -333,5 +354,11 @@ footer > p > a {
     }
     #lista_tarefas {
         width: 45%;
+    }
+    footer > p {
+        font-size: 1.4em;
+    }
+    footer > p > a {
+        font-size: 1em;
     }
 }
