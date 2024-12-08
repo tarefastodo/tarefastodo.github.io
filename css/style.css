@@ -94,6 +94,7 @@ section#adicionar_tarefa:hover {
 
 article#nova_tarefa {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
     width: 50%;
@@ -130,8 +131,6 @@ article#nova_tarefa > #botao:active {
 
 input, select {
     height: 40px;
-    width: auto;
-    margin: auto;
 }
 
 input::placeholder {
