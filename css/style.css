@@ -129,8 +129,9 @@ article#nova_tarefa > #botao:active {
     box-shadow: none;
 }
 
-input, select {
+input, select, textarea {
     height: 40px;
+    width: 100%;
 }
 
 input::placeholder {
