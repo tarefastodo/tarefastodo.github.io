@@ -131,6 +131,7 @@ article#nova_tarefa > #botao:active {
 input, select, textarea {
     height: 40px;
     width: 100%;
+    margin: auto;
 }
 
 input::placeholder {
