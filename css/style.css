@@ -95,6 +95,7 @@ section#adicionar_tarefa:hover {
 
 #titulo_novaTarefa {
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
 }
 
 article#nova_tarefa {
@@ -108,7 +109,9 @@ article#nova_tarefa {
 }
 
 article#nova_tarefa > label {
+    font-size: 1.1em;
     color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 article#nova_tarefa > #botao {
@@ -165,6 +168,7 @@ input::placeholder {
 #titulo_listaTarefas {
     text-align: center;
     color: #555;
+    text-shadow: 1px 1px 1px #c9eaf4;
 }
 
 #tarefas {
