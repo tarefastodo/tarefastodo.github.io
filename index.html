@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas To Do</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" id="logo">
+        <nav>
+            <a href="">Adicionar Tarefa</a>
+            <a href="">Lista de tarefas</a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="titulo">Gerencie suas Tarefas</h1>
+        <h2 id="subtitulo">Mantenha-se produtivo e organizado!</h2>
+
+        <section id="lista_tarefas">
+            <h3 id="titulo_listaTarefas">Lista de Tarefas</h3>
+            <div id="tarefas">
+                <!-- As tarefas serão adicionadas dinamicamente aqui -->
+            </div>
+        </section>
+
+        <section id="adicionar_tarefa">
+            <h3 id="titulo_novaTarefa">Adicionar Nova Tarefa</h3>
+
+            <article id="nova_tarefa">
+
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo_tarefa" placeholder="Titulo" name="descricao">
+
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" id="descricao" rows="4" placeholder="Descrição"></textarea>
+
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+                
+                <label for="prioridade">Nível de Prioridade:</label>
+                <select name="prioridade" id="prioridade">
+                    <option style="color: red;">Alta</option>
+                    <option style="color: orangered;">Média</option>
+                    <option style="color: green;">Baixa</option>
+                </select>
+
+                <p id="resposta_addTask"></p>
+
+                <input type="button" value="Adicionar" id="botao">
+
+            </article>
+            
+        </section>
+
+    </main>
+</body>
+</html>
