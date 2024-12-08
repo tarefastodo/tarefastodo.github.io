@@ -13,6 +13,10 @@ function adicionarTarefa() {
 
     let resposta = document.getElementById('resposta_addTask')
 
+    if(resposta.innerText === 'Tarefa Adicionada com Sucesso!') {
+        return
+    }
+
     if(!tituloValor || !descricaoValor || !dataValor || !prioridadeValor) {
         resposta.style.color = 'red';
         resposta.style.display = 'block';
